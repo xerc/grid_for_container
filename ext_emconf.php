@@ -1,7 +1,7 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'Example Extension (for DDEV for TYPO3 extensions)',
+    'title' => 'Grid for Container',
     'description' => 'Add an easy to use grid element for Container. It\'s Framework independent. Prepared for Bootstrap.',
     'version' => '1.0.0',
     'state' => 'stable',
