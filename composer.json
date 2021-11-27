@@ -27,7 +27,7 @@
         }
     },
     "replace": {
-        "typo3-ter/grid_for_container": "*"
+        "typo3-ter/grid_for_container": "self.version"
     },
     "extra": {
         "typo3/cms": {
