@@ -1,53 +1,77 @@
+.. every .rst file should include Includes.txt
+.. use correct path!
+
 .. include:: Includes.txt
 
+
+.. Every manual should have a start label for cross-referencing to
+.. start page. Do not remove this!
 
 .. _start:
 
 =============================================================
-Example Extension (for DDEV for TYPO3 extensions)
+Grid for Container
 =============================================================
 
-.. only:: html
+:Version:
+   0.9.0
 
-	:Classification:
-		my-ext
+:Language:
+   en
 
-	:Version:
-		|release|
+:Authors:
+   Marco Schmidt
 
-	:Language:
-		en
+:Email:
+   typo@schmidt-webmedia.de
 
-	:Description:
-		Your description goes here.
+:License:
+   This extension documentation is published under the
+   `CC BY-NC-SA 4.0 <https://creativecommons.org/licenses/by-nc-sa/4.0/>`__ (Creative Commons)
+   license
 
-	:Keywords:
-		TYPO3 CMS, extension, example, ddev
+Add an easy to use grid element for Container. It's Framework independent. Prepared for Bootstrap
 
-	:Copyright:
-		2020
+**TYPO3**
 
-	:Author:
-		Armin Vieweg
+   The content of this document is related to TYPO3 CMS,
+   a GNU/GPL CMS/Framework available from `typo3.org
+   <https://typo3.org/>`_ .
 
-	:Email:
-		armin@v.ieweg.de
+**Community Documentation:**
 
-	:License:
-		This document is published under the Open Content License
-		available from http://www.opencontent.org/opl.shtml
+   This documentation is community documentation for the TYPO3 extension Grid for Gridelements
 
-	:Rendered:
-		|today|
+   It is maintained as part of this third party extension.
 
-	The content of this document is related to TYPO3,
-	a GNU/GPL CMS/Framework available from `www.typo3.org <http://www.typo3.org/>`_.
+   If you find an error or something is missing, please:
+   `Report a Problem <https://github.com/SchmidtWebmedia/grid_for_container/issues/new>`__
+
+**Extension Manual**
+
+   This documentation is for the TYPO3 extension grid_for_container.
+
+**For Contributors**
+
+   You are welcome to help improve this guide. Just click on "Edit me on GitHub"
+   on the top right to submit your change request.
+
+**For Users**
+
+   If you are happy with this extension or you need a new future please let me know. E-Mail adress at the top.
 
 
-	**Table of Contents**
+**Sitemap:**
+
+   :ref:`sitemap`
+
 
 .. toctree::
-        :maxdepth: 2
-        :titlesonly:
+   :maxdepth: 3
+   :hidden:
 
-        Support/Index
+   Introduction/Index
+   Configuration/Index
+   Changelog/Index
+   Sitemap
+
