@@ -40,7 +40,7 @@ Add an easy to use grid element for Container. It's Framework independent. Prepa
 
 **Community Documentation:**
 
-   This documentation is community documentation for the TYPO3 extension Grid for Gridelements
+   This documentation is community documentation for the TYPO3 extension Grid for Container
 
    It is maintained as part of this third party extension.
 
