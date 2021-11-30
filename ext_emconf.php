@@ -3,6 +3,7 @@
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Grid for Container',
     'description' => 'Add an easy to use grid element for Container. It\'s Framework independent. Prepared for Bootstrap.',
+    'category' => 'plugin',
     'version' => '0.9.0',
     'state' => 'beta',
     'author' => 'Marco Schmidt',
