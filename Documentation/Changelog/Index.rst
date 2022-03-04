@@ -6,6 +6,12 @@ Changelog
 =========
 All notable changes to this project will be documented in this file.
 
+[1.0.1] - 2022-03-04
+^^^^^^^^^^^^^^^^^^^^^^
+**Fixed**
+
+- Preview in backend
+
 [1.0.0] - 2022-02-19
 ^^^^^^^^^^^^^^^^^^^^^^
 **Changed**

@@ -13,7 +13,8 @@
         )
     )
         ->setIcon('grid-for-container-twocol')
-        ->setBackendTemplate('EXT:grid_for_container/Resources/Private/Container/Templates/backend.html')
+        ->setBackendTemplate('EXT:grid_for_container/Resources/Private/Container/Templates/Backend.html')
+        ->setSaveAndCloseInNewContentElementWizard(false)
 );
 
 $additionalColumns = [
