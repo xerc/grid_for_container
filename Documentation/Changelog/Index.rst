@@ -6,6 +6,12 @@ Changelog
 =========
 All notable changes to this project will be documented in this file.
 
+[1.0.2] - 2022-03-17
+^^^^^^^^^^^^^^^^^^^^^^
+**Changed**
+
+- Name of extension
+
 [1.0.1] - 2022-03-04
 ^^^^^^^^^^^^^^^^^^^^^^
 **Fixed**

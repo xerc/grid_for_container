@@ -1,10 +1,10 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'Grid for Container',
+    'title' => 'Multi Framework grids for Container',
     'description' => 'Add an easy to use grid element for Container. It\'s Framework independent. Prepared for Bootstrap.',
     'category' => 'plugin',
-    'version' => '1.0.1',
+    'version' => '1.0.2',
     'state' => 'stable',
     'author' => 'Marco Schmidt',
     'author_email' => 'typo@schmidt-webmedia.de',
