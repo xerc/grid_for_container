@@ -6,6 +6,12 @@ Changelog
 =========
 All notable changes to this project will be documented in this file.
 
+Unreleased
+^^^^^^^^^^
+**Added**
+
+- Support for Container ^1 & ^2
+
 [1.0.2] - 2022-03-17
 ^^^^^^^^^^^^^^^^^^^^^^
 **Changed**
