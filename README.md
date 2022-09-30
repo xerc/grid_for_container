@@ -2,21 +2,20 @@
 
 
 
-[![TYPO3](https://img.shields.io/badge/TYPO3-10.4%20LTS-green)](https://typo3.org/)
-[![TYPO3](https://img.shields.io/badge/TYPO3-11.5%20LTS-green)](https://typo3.org/)
-[![Container](https://img.shields.io/badge/Container-^1-green)](https://extensions.typo3.org/extension/container)
+[![TYPO3](https://img.shields.io/badge/TYPO3-^10.4_||_^11.5-green)](https://typo3.org/)
+[![Container](https://img.shields.io/badge/Container-^1_||_^2-green)](https://extensions.typo3.org/extension/container)
 
 ## Description
 
 You can use this extension for adding an easy to use Grid which are Framework independently.
 
-It's pre configured for Bootstrap. 
+It's pre-configured for Bootstrap 3, 4 and 5. 
 
 ***Important: The Bootstrap CSS/JS is not included***
 
 ## Features
 
-There are Grid options to choose for an TYPO3 editor. Something like 
+There are Grid options to choose for an TYPO3 editor. Something like (e.g. two column)
 * 50/50 
 * 33/66 
 * 25/75
