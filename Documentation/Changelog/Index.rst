@@ -6,11 +6,19 @@ Changelog
 =========
 All notable changes to this project will be documented in this file.
 
-Unreleased
-^^^^^^^^^^
+[2.0.0] - 2022-09-30
+^^^^^^^^^^^^^^^^^^^^
+
+Breaking changes
+----------------
+
+If you are using an own Grid configuration, you have to check the Extension settings and set the Grid Theme to "customized". Please check also if the path is still correct.
+
+
 **Added**
 
 - Support for Container ^1 & ^2
+- Separate between Bootstrap 3, Bootstrap 4 & 5 and customized grid configuration (Grid theme)
 
 [1.0.2] - 2022-03-17
 ^^^^^^^^^^^^^^^^^^^^^^

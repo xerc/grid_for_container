@@ -2,9 +2,8 @@
 
 namespace SchmidtWebmedia\GridForContainer\ViewHelpers;
 
-use TYPO3\CMS\Core\Utility\GeneralUtility;
+use SchmidtWebmedia\GridForContainer\Utility\JsonUtility;
 use TYPO3Fluid\Fluid\Core\ViewHelper\AbstractViewHelper;
-use TYPO3\CMS\Core\Configuration\ExtensionConfiguration;
 
 class GridViewHelper extends AbstractViewHelper
 {
@@ -19,7 +18,6 @@ class GridViewHelper extends AbstractViewHelper
     }
 
     /**
-     * @param $key string
      * @return string
      */
     public function render() {
@@ -43,9 +41,7 @@ class GridViewHelper extends AbstractViewHelper
 
     private static function readJSON() {
         if(self::$GridConfiguration === null) {
-            $path = GeneralUtility::makeInstance(ExtensionConfiguration::class)->get('grid_for_container', 'gridConfig');
-            $jsonInput = file_get_contents(GeneralUtility::getFileAbsFileName($path));
-            self::$GridConfiguration = json_decode($jsonInput, true);
+            self::$GridConfiguration = JsonUtility::readJSON();
         }
     }
 }

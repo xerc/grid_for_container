@@ -2,9 +2,9 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Multi Framework grids for Container',
-    'description' => 'Add an easy to use grid element for Container. It\'s Framework independent. Prepared for Bootstrap.',
+    'description' => 'Add an easy to use grid element for Container. It\'s Framework independent. Prepared for Bootstrap (3, 4, 5).',
     'category' => 'plugin',
-    'version' => '1.0.2',
+    'version' => '2.0.0',
     'state' => 'stable',
     'author' => 'Marco Schmidt',
     'author_email' => 'typo@schmidt-webmedia.de',

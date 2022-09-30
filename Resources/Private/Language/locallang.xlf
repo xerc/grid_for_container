@@ -49,8 +49,13 @@
 			</trans-unit>
 
 			<trans-unit id="extsettings.gridConfig">
-				<source>Path to Grid Config JSON</source>
+				<source>Path to custom Grid Config JSON: Add path here, if you selected theme 'customized'</source>
 			</trans-unit>
+
+			<trans-unit id="extsettings.gridTheme">
+				<source>Prepared Grid Theme</source>
+			</trans-unit>
+
 		</body>
 	</file>
 </xliff>

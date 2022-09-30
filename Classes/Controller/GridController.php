@@ -2,7 +2,7 @@
 
 namespace SchmidtWebmedia\GridForContainer\Controller;
 
-use TYPO3\CMS\Core\Configuration\ExtensionConfiguration;
+use SchmidtWebmedia\GridForContainer\Utility\JsonUtility;
 
 class GridController
 {
@@ -32,9 +32,7 @@ class GridController
 
     private static function readJSON() {
         if(self::$GridConfiguration === null) {
-            $path = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(ExtensionConfiguration::class)->get('grid_for_container', 'gridConfig');
-            $jsonInput = file_get_contents(\TYPO3\CMS\Core\Utility\GeneralUtility::getFileAbsFileName($path));
-            self::$GridConfiguration = json_decode($jsonInput, true);
+            self::$GridConfiguration = JsonUtility::readJSON();
         }
     }
 
