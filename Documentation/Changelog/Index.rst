@@ -6,6 +6,11 @@ Changelog
 =========
 All notable changes to this project will be documented in this file.
 
+[Unreleased]
+^^^^^^^^^^^^^^^^^^^^
+**Changed**
+- Use Bootstrap 4 & 5 as default grid config
+
 [2.0.0] - 2022-09-30
 ^^^^^^^^^^^^^^^^^^^^
 
