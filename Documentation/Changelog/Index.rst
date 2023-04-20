@@ -9,9 +9,11 @@ All notable changes to this project will be documented in this file.
 [2.1.0] - 2023-04-20
 ^^^^^^^^^^^^^^^^^^^^
 **Added**
+
 - TYPO3 v12@dev Support
 
 **Changed**
+
 - Use Bootstrap 4 & 5 as default grid config
 
 
