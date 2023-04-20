@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 namespace SchmidtWebmedia\GridForContainer\ViewHelpers;
 
@@ -9,8 +10,7 @@ class GridViewHelper extends AbstractViewHelper
 {
     private static $GridConfiguration;
 
-    public function initializeArguments()
-    {
+    public function initializeArguments() : void {
         $this->registerArgument('type', 'string', 'col, row or colLabel', true);
         $this->registerArgument('layout', 'string', 'Name of CType');
         $this->registerArgument('colIndex', 'int', 'Index of Column');
@@ -20,7 +20,7 @@ class GridViewHelper extends AbstractViewHelper
     /**
      * @return string
      */
-    public function render() {
+    public function render() : string {
         self::readJSON();
         switch($this->arguments['type']) {
             case 'row':
@@ -39,7 +39,7 @@ class GridViewHelper extends AbstractViewHelper
         return $this->arguments['type'];
     }
 
-    private static function readJSON() {
+    private static function readJSON() : void {
         if(self::$GridConfiguration === null) {
             self::$GridConfiguration = JsonUtility::readJSON();
         }

@@ -6,10 +6,14 @@ Changelog
 =========
 All notable changes to this project will be documented in this file.
 
-[Unreleased]
+[2.1.0] - 2023-04-20
 ^^^^^^^^^^^^^^^^^^^^
+**Added**
+- TYPO3 v12@dev Support
+
 **Changed**
 - Use Bootstrap 4 & 5 as default grid config
+
 
 [2.0.0] - 2022-09-30
 ^^^^^^^^^^^^^^^^^^^^

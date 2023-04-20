@@ -9,7 +9,7 @@ class JsonUtility
 {
     private const EXT_KEY = 'grid_for_container';
 
-    public static function readJSON() {
+    public static function readJSON() : mixed {
         $extensionConfiguration = GeneralUtility::makeInstance(ExtensionConfiguration::class);
         if($extensionConfiguration !== null) {
             $gridTheme = $extensionConfiguration->get(self::EXT_KEY, 'gridTheme');
