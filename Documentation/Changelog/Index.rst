@@ -6,6 +6,13 @@ Changelog
 =========
 All notable changes to this project will be documented in this file.
 
+[2.1.1] - 2023-04-26
+^^^^^^^^^^^^^^^^^^^^
+
+**Changed**
+
+- TYPO3 v12 LTS Support
+
 [2.1.0] - 2023-04-20
 ^^^^^^^^^^^^^^^^^^^^
 **Added**
