@@ -1,7 +1,13 @@
 <?php
-\TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\B13\Container\Tca\Registry::class)->configureContainer(
+
+use B13\Container\Tca\ContainerConfiguration;
+use B13\Container\Tca\Registry;
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
+use TYPO3\CMS\Core\Utility\GeneralUtility;
+
+GeneralUtility::makeInstance(Registry::class)->configureContainer(
     (
-    new \B13\Container\Tca\ContainerConfiguration(
+    new ContainerConfiguration(
         'onecol',
         'LLL:EXT:grid_for_container/Resources/Private/Language/locallang.xlf:onecols.title',
         'LLL:EXT:grid_for_container/Resources/Private/Language/locallang.xlf:onecols.description',
@@ -13,7 +19,7 @@
     )
         ->setIcon('grid-for-container-onecol')
         ->setBackendTemplate('EXT:grid_for_container/Resources/Private/Container/Templates/Backend.html')
-        ->setSaveAndCloseInNewContentElementWizard(false)
+        ->setSaveAndCloseInNewContentElementWizard(true)
 );
 
 $additionalColumns = [
@@ -22,13 +28,13 @@ $additionalColumns = [
         'config' => [
             'type' => 'select',
             'default' => '',
-            'itemsProcFunc' => 'SchmidtWebmedia\\GridForContainer\\Controller\\GridController->getOneColumnOptions',
+            'itemsProcFunc' => 'SchmidtWebmedia\\GridForContainer\\Controller\\GridController->getColumnOptions',
             'renderType' => 'selectSingle',
         ],
     ],
 ];
 
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns(
+ExtensionManagementUtility::addTCAcolumns(
     'tt_content',
     $additionalColumns
 );

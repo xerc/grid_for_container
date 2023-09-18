@@ -17,6 +17,7 @@
         }
     ],
     "require": {
+        "php": "^7.4 || ^8",
         "typo3/cms-core": "^10.4 || ^11.5 || ^12.4",
         "b13/container": "^1 || ^2",
         "ext-json": "*"
@@ -32,6 +33,14 @@
     "extra": {
         "typo3/cms": {
             "extension-key": "grid_for_container"
+        }
+    },
+    "config": {
+        "vendor-dir": ".Build/vendor",
+        "bin-dir": ".Build/bin",
+        "allow-plugins": {
+            "typo3/cms-composer-installers": true,
+            "typo3/class-alias-loader": true
         }
     }
 }

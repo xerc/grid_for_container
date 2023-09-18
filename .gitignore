@@ -24,3 +24,6 @@
 .ddev
 /Documentation-GENERATED-temp/
 .idea
+/composer.lock
+/.Build/
+/public/

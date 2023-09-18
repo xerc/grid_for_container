@@ -7,36 +7,19 @@ use SchmidtWebmedia\GridForContainer\Utility\JsonUtility;
 class GridController
 {
 
-    private static $GridConfiguration;
+    private static ?array $GridConfiguration = null;
 
-    /**
-     * @param $config
-     *
-     * @return mixed
-     */
-    public function getOneColumnOptions($config) {
+    public function getColumnOptions($config) : array {
         return $this->getColumnRatio($config);
     }
 
-    public function getTwoColumnOptions($config) {
-        return $this->getColumnRatio($config);
-    }
-
-    public function getThreeColumnOptions($config) {
-        return $this->getColumnRatio($config);
-    }
-
-    public function getFourColumnOptions($config) {
-        return $this->getColumnRatio($config);
-    }
-
-    private static function readJSON() {
+    private static function readJSON() : void {
         if(self::$GridConfiguration === null) {
             self::$GridConfiguration = JsonUtility::readJSON();
         }
     }
 
-    private function getColumnRatio($config) {
+    private function getColumnRatio($config) : array {
         self::readJSON();
         $fieldName = $config['row']['CType'][0];
         $columnRatioList = [];
