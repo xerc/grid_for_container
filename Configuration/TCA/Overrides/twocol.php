@@ -40,8 +40,6 @@ ExtensionManagementUtility::addTCAcolumns(
     $additionalColumns
 );
 
-$showItem = $GLOBALS['TCA']['tt_content']['types']['twocol']['showitem'];
-
 $GLOBALS['TCA']['tt_content']['types']['twocol']['showitem'] = '
  --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
         --palette--;;general,
